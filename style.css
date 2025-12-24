@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    min-height: 100vh;
+    background-color: rgb(34, 34, 34);
+    display:flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    height: 100rem;
+    margin: 5rem 0 15rem;
+    background-color:gainsboro;
+}
