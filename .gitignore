@@ -1,0 +1,94 @@
+# ===================== PHP =====================
+# Зависимости Composer
+vendor/                    # САМОЕ ВАЖНОЕ - НЕ КОММИТИТЬ!
+
+# Логи и кэш
+*.log
+logs/
+cache/
+tmp/
+session/
+*.cache
+storage/framework/cache/*
+storage/framework/views/*
+
+# Настройки среды (НИКОГДА НЕ КОММИТИТЬ СЕКРЕТЫ!)
+.env
+.env.local
+.env.production
+.env.*.local
+.env.*.production
+
+# Базы данных и дампы
+*.sql
+*.sqlite
+database.sqlite
+dump.sql
+*.dump
+
+# Временные файлы PHP
+*.swp
+*.swo
+*.save
+*.orig
+*~
+
+# Сессии
+sess_*
+php_sess_*
+
+# ===================== ЗАГРУЖЕННЫЕ ФАЙЛЫ =====================
+# Пользовательские загрузки (НИКОГДА не коммитить!)
+uploads/
+public/uploads/
+storage/app/public/*
+!storage/app/public/.gitkeep  # если нужно сохранить пустую папку
+
+# Кэш изображений
+public/cache/
+public/thumbs/
+
+# ===================== СИСТЕМНЫЕ ФАЙЛЫ =====================
+.DS_Store                 # macOS
+Thumbs.db                 # Windows
+desktop.ini              # Windows
+*.pid
+*.seed
+
+# ===================== РЕДАКТОРЫ КОДА =====================
+.vscode/                  # настройки VS Code (кроме extensions.json)
+.idea/                    # настройки PhpStorm/WebStorm
+*.swp                    # временные файлы Vim
+*.swo
+.project
+.settings/
+
+# ===================== СБОРКА/КОМПИЛЯЦИЯ =====================
+# Скомпилированные/собранные файлы
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+__pycache__/
+
+# ===================== SSL/СЕРТИФИКАТЫ =====================
+*.key
+*.pem
+*.crt
+*.csr
+
+# ===================== ЛОКАЛЬНЫЕ НАСТРОЙКИ =====================
+# Локальные конфиги (переопределяют основные)
+config/local.php
+config/local.yml
+*.local.php
+*.local.yml
+
+# ===================== IDE СПЕЦИФИЧНЫЕ =====================
+.buildpath
+.ftpconfig
+.remote-sync.json
+*.sublime-*
