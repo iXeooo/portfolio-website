@@ -22,17 +22,55 @@
 
 /* Individual sections */
 .home-section {
-    background:#0b0b0b;
-    color:white;
+
+    filter:contrast(200%) brightness(100%);
+    background-image:
+    linear-gradient(#0b0b0b 15%, transparent),
+    linear-gradient(#0b0b0b60 45%, transparent),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.5), transparent 10%),
+	url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+
+    color:black;
 }
 
 .about-section {
-    background:#242423;
+    background:#101010;
     color:gainsboro;
 }
 
 .contact-section {
-    background: #0b0b0b;
+    background: #242423;
     color:gainsboro;
 
+}
+
+/* home-section */
+
+.portfolio {
+    width: 100%;
+    height: 15rem;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portfolio h1 {
+    width: 100%;    
+    text-align: center;
+
+    color: rgb(255, 255, 255, 0.5);
+    font-family: monospace;
+    font-size: 13rem;
+    font-weight: 300;  
+    text-transform: uppercase;
+    
+    cursor: default;
+}
+
+.footer_part {
+    color:black;
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: 600;
 }
