@@ -3,14 +3,25 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="CSS/style.css">        
+    <link rel="stylesheet" href="CSS/style.css">  
+    
     </head>
     <body>
 
 <!-- Home section -->        
     <section id="home" class="section home-section">
         <div class="container">
-            <h1>PORTFOLIO</h1>
+            <div class="portfolio">
+                <h1>p</h1>
+                <h1>o</h1>
+                <h1>r</h1>
+                <h1>t</h1>
+                <h1>f</h1>
+                <h1>o</h1>
+                <h1>l</h1>
+                <h1>i</h1>
+                <h1>o</h1>
+            </div>
             <footer>
                 <div class="footer_part">
                     <p>2025</p>
