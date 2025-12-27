@@ -22,15 +22,15 @@
 
 /* Individual sections */
 .home-section {
+    background:linear-gradient(#13527Dff,#4B82A9ff,#7CAAC2ff,#A0BCC8ff);
 
-    filter:contrast(200%) brightness(100%);
-    background-image:
-    linear-gradient(#0b0b0b 15%, transparent),
-    linear-gradient(#0b0b0b60 45%, transparent),
-    linear-gradient(0deg, rgba(255, 255, 255, 0.5), transparent 10%),
-	url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
-
-    color:black;
+    /* filter:contrast(200%) brightness(100%); */
+    /*background-image:
+    linear-gradient(rgb(11, 11, 11) 15%, transparent),
+    linear-gradient(rgba(11, 11, 11, 0.375) 45%, transparent),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.5), transparent 10%),*/
+	/* background-image:linear-gradient(#13527Dff,#4B82A9ff,#7CAAC2ff,#A0BCC8ff),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");  */
 }
 
 .about-section {
@@ -59,7 +59,8 @@
     width: 100%;    
     text-align: center;
 
-    color: rgb(255, 255, 255, 0.5);
+    /* color: rgb(255, 255, 255, 0.5); */
+    color: #2C3E50;
     font-family: monospace;
     font-size: 13rem;
     font-weight: 300;  
