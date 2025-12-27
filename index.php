@@ -24,8 +24,7 @@
             </div>
             <footer>
                 <div class="footer_part">
-                    <p>2025</p>
-                    <p>Xeo</p>
+                    <p>Artyom Sabelfeld | 2025</p>
                 </div>  
             </footer>
         </div>

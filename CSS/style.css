@@ -22,7 +22,9 @@
 
 /* Individual sections */
 .home-section {
-    background:linear-gradient(#13527Dff,#4B82A9ff,#7CAAC2ff,#A0BCC8ff);
+    /* background:linear-gradient(#13527Dff,#4B82A9ff,#7CAAC2ff,#A0BCC8ff); */
+
+    background-image:url('/images/Frame\ 1.png');
 
     /* filter:contrast(200%) brightness(100%); */
     /*background-image:
@@ -53,14 +55,16 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+
+    overflow:hidden;
 }
 
 .portfolio h1 {
     width: 100%;    
     text-align: center;
 
-    /* color: rgb(255, 255, 255, 0.5); */
-    color: #2C3E50;
+    color: rgb(255, 255, 255, 0.5);
+    /* color: #2C3E50; */
     font-family: monospace;
     font-size: 13rem;
     font-weight: 300;  
@@ -70,8 +74,9 @@
 }
 
 .footer_part {
-    color:black;
+    color:rgb(255, 255, 255, 0.7);
     font-family: monospace;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 300;
+    text-align: center;
 }
