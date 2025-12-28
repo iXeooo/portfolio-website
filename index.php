@@ -31,7 +31,10 @@
     </section>
 <!-- About section -->   
     <section id="about" class="section about-section">
-        2
+        <div class="fence-top">
+            <div class="fence-part-top"></div>
+            <div class="fence-part-bot"></div>
+        </div>
     </section>
 <!-- Contact section --> 
     <section id="contact" class="section contact-section">

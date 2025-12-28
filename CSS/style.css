@@ -36,8 +36,10 @@
 }
 
 .about-section {
-    background:#101010;
+    position: relative;
+    background:#D7CFBC;
     color:gainsboro;
+    overflow: hidden;
 }
 
 .contact-section {
@@ -79,4 +81,28 @@
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
+}
+
+/* about-section */
+.fence-top {
+    width: 100%;
+    height: 6rem;
+    top: 0;
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 0 3rem black;
+}
+.fence-part-top {
+    width: 100%;
+    height: 3rem;
+    background-color: #FFF8E5;    
+}
+
+.fence-part-bot {
+    background-color: #D7CFBC;
+     width: 100%;
+    height: 3rem;        
 }
