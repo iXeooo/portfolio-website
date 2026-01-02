@@ -33,7 +33,185 @@
     <section id="about" class="section about-section">
         <div class="fence-top">
             <div class="fence-part-top"></div>
-            <div class="fence-part-bot"></div>
+            <div class="fence-part-bot-group">
+                <div class="fence-part-bot">
+                    <div class="splitter"></div>
+                </div>
+                <div class="fence-part-bot">
+                    <div class="splitter"></div>
+                    <div class="splitter last-splitter"></div>
+                </div>
+            </div>
+        </div>
+        <div class="fence-mid">
+            <div class="fence-border"></div>
+            <div class="fence-center">
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+            </div>
+            <div class="fence-border"></div>
+            <div class="fence-border"></div>
+            <div class="fence-center">
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+<div class="square">
+    <div class="bot-trap"></div>
+    <div class="top-trap"></div>
+    <div class="r-tri"></div>
+</div>
+            </div>
+            <div class="fence-border"></div>
+        </div>
+        <div class="fence-bot">
+            <div class="fence-bot-part">
+                <div class="bot-splitter"></div>
+            </div>
+            <div class="fence-bot-part">
+                <div class="bot-splitter"></div>
+                <div class="bot-splitter last-splitter"></div>
+            </div>
+            
         </div>
     </section>
 <!-- Contact section --> 
